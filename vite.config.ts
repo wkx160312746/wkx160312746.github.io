@@ -33,7 +33,7 @@ import 'prismjs/components/prism-javadoc'
 import 'prismjs/components/prism-jsdoc'
 
 const config: UserConfig = {
-  base: '/',
+  base:'/',
   resolve: {
     alias: [
       { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },
