@@ -13,7 +13,7 @@ Element UI与插槽的配合使用
 ![vue-solt](/public/images/vue-solt/vue-solt.png)
 
 ```vue
-<el-step icon="el-icon-message-solid" v-for="item,i in list">
+<el-step icon="el-icon-message-solid" v-for="(item,i) in list">
  
 	<!--  此时这里的title将会完全替换掉原插件的title    -->
 	<span slot="title">

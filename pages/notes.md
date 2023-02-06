@@ -4,7 +4,13 @@ display: Notes
 subtitle: Quick notes / tips
 description: Quick notes / tips
 ---
+<article>
+## 随记
+_2023/02/6_
 
+今天是上班的第一天
+
+</article>
 <article>
 
 ## `range` in JavaScript
@@ -21,6 +27,7 @@ Array.from({ length: 10 }, (_, i) => i)
 ```
 
 </article>
+
 <article>
 
 ## Clean npm cache
